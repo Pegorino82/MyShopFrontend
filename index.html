@@ -3,16 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>My Shop</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <h1>Мой магазин</h1>
-        <ul>
+        <ul class="menu">
             <li><a href="index.html">Главная</a></li>
             <li><a href="catalog.html">Каталог</a></li>
             <li><a href="contacts.html">Контакты</a></li>
             <li><a href="personal.html">Личный кабинет</a></li>
         </ul>
-        <form action="index.html">
+        <form class="login" action="personal.html">
             <input type="radio" name="registration" value="1">Войти<br>
             <input type="radio" name="registration" value="2">Зарегистрироваться<br>
             <label for="eMail">Ваш e-mail:</label>
@@ -25,7 +26,7 @@
             <label for="password">Пароль:</label>
             <input name="password"
                    id="password"
-                   type="text"
+                   type="password"
                    placeholder="Ваш пароль"
                    required>
             <br>
