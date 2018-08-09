@@ -76,13 +76,13 @@ p {
 }
 
 .feedback select {
-  font-family: #A9A9A9;
+  color: #A9A9A9;
   font-style: italic;
   width: 20%;
 }
 
 .feedback textarea[name="text"] {
-  text-align: top left;
+  text-align: left;
   font-style: italic
 }
 
@@ -97,7 +97,7 @@ p {
   color: #707070;
   font-size: 14px;
   font-style: italic;
-  line-heght: 16px;
+  line-height: 16px;
   background: #eaeaea;
 }
 
@@ -109,15 +109,22 @@ p {
 }
 
 .characteristic {
-  list-style-image: url('images/Salad-icon.png');
   margin-left: 5px;
   font-family: "Comic Sans MS", sans-serif;
+}
+
+#fruit.characteristic {
+  list-style-image: url('images/Salad-icon.png');
+}
+
+#bread.characteristic {
+  list-style-image: url('images/bread-icon.png');
 }
 
 .longtext {
   color: #484343;
   font-size: 16px;
   font-weight: 400;
-  line-weight: 24px;
-  text-align: top left;
+  line-height: 24px;
+  text-align: left;
 }
