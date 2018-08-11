@@ -1,19 +1,76 @@
 body {
-  background: #f8f8f8;
+  background: #F8F8F8;
 }
 
-h1 {
-  line-height: 64px;
-  background: url('images/background_1.png') repeat-X top;
+.authform {
+  border: 1px solid #4682B4;
+  padding: 5px 5px;
 }
 
-h1, h2, h3 {
+/*-------------footer-----------------*/
+
+.footer {
+  height: 5em;
+  font-style: italic;
+  text-align: center;
+  border-top: 1px solid #4682B4;
+} 
+
+/*-------------header-----------------*/
+
+.header {
+  color: #161B1D;
+  position: relative;
+  /* height: 50px; */
+}
+
+.shop_title {
+  display: block;
   color: #4682B4;
   font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
 }
 
-p {
-  text-align: justify;
+.header:before {
+  width: 100%;
+  content: '';
+  border-top: 1px solid #4682B4;
+  top: -5px;
+  position: absolute;
+}
+
+.header:after {
+  width: 100%;
+  content: '';
+  border-bottom: 1px solid #4682B4;
+  bottom: -5px;
+  position: absolute;
+}
+
+.logo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* .logo {
+  top:0;
+  display:block;
+  text-align: left;
+  float: left;
+  margin-right: 48px;
+  width: 200px;
+  height: 300px;
+  background: url('../images/categories/food/foodbascket.jpg') no-repeat;
+} */
+
+.header h1 {
+  color: #4682B4;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  line-height: 64px;
+  /*background: url('../images/icons/background_1.png') repeat-X top;*/
 }
 
 .menu {
@@ -25,7 +82,10 @@ p {
   color: #778899;
   font-family: "Comic Sans MS", sans-serif;
   text-decoration: none;
+}
 
+.menu a:hover {
+  color: #663399;
 }
 
 .login {
@@ -40,13 +100,40 @@ p {
 
 .login button {
   color: #778899;
-  font-family: "Comic Sans MS", sans-serif; /*почему для кнопки надо отдельно писать шрифт?*/
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+/*-------------content-----------------*/
+
+.content p {
+  text-align: justify;
+}
+
+.feedback input[name='username'],
+.feedback input[name='email'],
+.feedback textarea[name='text'] {
+  text-transform: capitalize;
+}
+
+.feedback input:hover,
+.feedback textarea:hover,
+.feedback select:hover {
+  background: #81CCDF;
+}
+
+.feedback input[name="email"]:focus,
+.feedback select:focus {
+  background: #81CCDF;
+  color: #663399;
 }
 
 .img200 {
   width: 200px;
-  /*height: 200px;*/
   border: 4px solid #778899;
+}
+
+#prod.img200:hover {
+  border: 4px solid transparent;
 }
 
 .links {
@@ -54,7 +141,6 @@ p {
   font-family: "Comic Sans MS", sans-serif;
   text-decoration: none;
 }
-
 
 .feedback {
   color: #778899;
@@ -83,7 +169,7 @@ p {
 
 .feedback textarea[name="text"] {
   text-align: left;
-  font-style: italic
+  font-style: italic;
 }
 
 .contacts {
@@ -101,7 +187,15 @@ p {
   background: #eaeaea;
 }
 
-.header {
+.shorttext:first-letter,
+.longtext:first-letter {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  color: #663399;
+}
+
+.header_h4 {
   color: #000000;
   font-size: 18px;
   font-weight: 400;
@@ -113,12 +207,24 @@ p {
   font-family: "Comic Sans MS", sans-serif;
 }
 
+.tb_characteristic {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.tb_characteristic th,
+.tb_characteristic td {
+  height: 2em;
+  border: #90B8D2 solid 3px;
+  text-align: center;
+}
+
 #fruit.characteristic {
-  list-style-image: url('images/Salad-icon.png');
+  list-style-image: url('../images/icons/Salad-icon.png');
 }
 
 #bread.characteristic {
-  list-style-image: url('images/bread-icon.png');
+  list-style-image: url('../images/icons/bread-icon.png');
 }
 
 .longtext {
@@ -127,4 +233,22 @@ p {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+
+.tb_main {
+  border-collapse: collapse;
+  margin: 5% 10%;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+.tb_main td {
+  height: 2em;
+  width: 2em;
+  border: solid #4682B4 2px;
+}
+
+.tr_main:nth-child(1) {
+  height: 4em;
 }

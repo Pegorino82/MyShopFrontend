@@ -6,57 +6,59 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <h1>Мой магазин</h1>
-        <ul class="menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <hr>
-        <h2>Личный кабинет</h2>
-        <fieldset>
-            <legend>Личные данные</legend>
-            <form action="personal.html" method="post">
-                <label for="userName">Логин:</label>
-                <input name="username"
-                       id="userName"
-                       type="text"
-                       placeholder="Имя на сайте">
-                <br>
-                <label for="eMail">Ваш e-mail:</label>
-                <input name="email"
-                       id="eMail"
-                       type="text"
-                       placeholder="example@mail.com"
-                       required>
-                <br>
-                <label for="password">Пароль:</label>
-                <input name="password"
-                       id="password"
-                       type="text"
-                       placeholder="Ваш пароль">
-                <br>
-                <label for="birthdate">Дата рождения:</label>
-                <input name="birthdate"
-                       id="birthdate"
-                       type="date"
-                       value="1980-01-01">
-                <br>
-                <label for="info">О себе:</label>
-                <textarea name="info"
-                          id="info"
-                          cols="25"
-                          rows="5">
+        <div class="header">
+            <img class="logo" src="images/categories/food/foodbascket.jpg" alt="">
+            <span class="shop_title">Мой магазин</span>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Личный кабинет</h2>
+            <fieldset>
+                <legend>Личные данные</legend>
+                <form action="personal.html" method="post">
+                    <label for="userName">Логин:</label>
+                    <input name="username"
+                        id="userName"
+                        type="text"
+                        placeholder="Имя на сайте">
+                    <br>
+                    <label for="eMail">Ваш e-mail:</label>
+                    <input name="email"
+                        id="eMail"
+                        type="text"
+                        placeholder="example@mail.com"
+                        required>
+                    <br>
+                    <label for="password">Пароль:</label>
+                    <input name="password"
+                        id="password"
+                        type="text"
+                        placeholder="Ваш пароль">
+                    <br>
+                    <label for="birthdate">Дата рождения:</label>
+                    <input name="birthdate"
+                        id="birthdate"
+                        type="date"
+                        value="1980-01-01">
+                    <br>
+                    <label for="info">О себе:</label>
+                    <textarea name="info"
+                            id="info"
+                            cols="25"
+                            rows="5">
 
-                </textarea>
-                <br>
-                <button>Подтвердить</button>
-            </form>
-        </fieldset>
-        <hr>
-        <footer>
-            <i>&copy;Все права защищены</i>
-        </footer>
-
+                    </textarea>
+                    <br>
+                    <button>Подтвердить</button>
+                </form>
+            </fieldset>
+        </div>
+        <div class="footer">
+            &copy;Все права защищены
+        </div>
     </body>
 </html>

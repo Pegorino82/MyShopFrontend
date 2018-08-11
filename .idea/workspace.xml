@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0bc8ba-0942-4862-b2c0-27d495300b2c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/categories/food/bread.html" afterPath="$PROJECT_DIR$/categories/food/bread.html" />
-      <change beforePath="$PROJECT_DIR$/categories/food/fruits.html" afterPath="$PROJECT_DIR$/categories/food/fruits.html" />
-      <change beforePath="$PROJECT_DIR$/categories/food/fruits/bananas.html" afterPath="$PROJECT_DIR$/categories/food/fruits/bananas.html" />
-      <change beforePath="$PROJECT_DIR$/categories/food/fruits/mandarines.html" afterPath="$PROJECT_DIR$/categories/food/fruits/mandarines.html" />
       <change beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/personal.html" afterPath="$PROJECT_DIR$/personal.html" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" afterPath="$PROJECT_DIR$/styles/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45117846">
+    <splitter split-orientation="horizontal" split-proportion="0.63720536">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="food.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/categories/food.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="493">
-                  <caret line="29" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+                  <caret line="29" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
                   <folding>
                     <element signature="e#980#986#0" expanded="true" />
                   </folding>
@@ -37,7 +32,7 @@
             <entry file="file://$PROJECT_DIR$/categories/gifts.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
-                  <caret line="5" column="54" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+                  <caret line="5" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +41,8 @@
           <file leaf-file-name="bananas.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/categories/food/fruits/bananas.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="29" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
                   <folding>
                     <element signature="e#1404#1410#0" expanded="true" />
                   </folding>
@@ -58,8 +53,8 @@
           <file leaf-file-name="mandarines.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/categories/food/fruits/mandarines.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
+                <state relative-caret-position="34">
+                  <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
                   <folding>
                     <element signature="e#1399#1405#0" expanded="true" />
                   </folding>
@@ -71,7 +66,7 @@
             <entry file="file://$PROJECT_DIR$/categories/food/bread/darkbread.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="281">
-                  <caret line="25" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+                  <caret line="25" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
                   <folding>
                     <element signature="e#1414#1420#0" expanded="true" />
                   </folding>
@@ -79,7 +74,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="whitebread.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="whitebread.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/categories/food/bread/whitebread.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
@@ -94,8 +89,8 @@
           <file leaf-file-name="bread.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/categories/food/bread.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="397">
-                  <caret line="31" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
                   <folding>
                     <element signature="e#1306#1312#0" expanded="true" />
                   </folding>
@@ -103,13 +98,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contacts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+                <state relative-caret-position="255">
+                  <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
                   <folding>
-                    <element signature="e#2345#2351#0" expanded="true" />
+                    <element signature="e#2327#2333#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -129,7 +124,7 @@
             <entry file="file://$PROJECT_DIR$/categories/food/fruits.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="380">
-                  <caret line="25" column="77" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
+                  <caret line="25" column="77" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
                   <folding>
                     <element signature="e#1306#1312#0" expanded="true" />
                   </folding>
@@ -144,8 +139,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="491">
-                  <caret line="106" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
+                <state relative-caret-position="542">
+                  <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -155,7 +150,7 @@
             <entry file="file://$PROJECT_DIR$/../../Lesson_3/примеры для урока 3 курс html css/примеры для урока 3 курс html css/13 расположение и трансформация текста/text.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
-                  <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="22" />
+                  <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -191,9 +186,9 @@
         <option value="$PROJECT_DIR$/categories/food/fruits/bananas.html" />
         <option value="$PROJECT_DIR$/categories/food/bread/whitebread.html" />
         <option value="$PROJECT_DIR$/categories/food/fruits/mandarines.html" />
-        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/personal.html" />
         <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/contacts.html" />
       </list>
     </option>
   </component>
@@ -226,6 +221,24 @@
               <item name="MyShopFrontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyShopFrontend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyShopFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyShopFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyShopFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyShopFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyShopFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyShopFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="fruits" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -236,6 +249,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lesson_3/примеры для урока 3 курс html css/примеры для урока 3 курс html css/13 расположение и трансформация текста/text.css" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -310,17 +324,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1326#1332#0" expanded="true" />
-            <element signature="e#1525#1531#0" expanded="true" />
-            <element signature="e#1558#1564#0" expanded="true" />
-            <element signature="e#1634#1640#0" expanded="true" />
-            <element signature="e#1758#1764#0" expanded="true" />
-            <element signature="e#1843#1849#0" expanded="true" />
-            <element signature="e#2222#2228#0" expanded="true" />
-            <element signature="e#2736#2742#0" expanded="true" />
-            <element signature="e#2748#2754#0" expanded="true" />
-            <element signature="e#2783#2789#0" expanded="true" />
-            <element signature="e#3045#3051#0" expanded="true" />
+            <element signature="e#1326#1332#0" expanded="false" />
+            <element signature="e#1525#1531#0" expanded="false" />
+            <element signature="e#1558#1564#0" expanded="false" />
+            <element signature="e#1634#1640#0" expanded="false" />
+            <element signature="e#1758#1764#0" expanded="false" />
+            <element signature="e#1843#1849#0" expanded="false" />
+            <element signature="e#2222#2228#0" expanded="false" />
+            <element signature="e#2736#2742#0" expanded="false" />
+            <element signature="e#2748#2754#0" expanded="false" />
+            <element signature="e#2783#2789#0" expanded="false" />
+            <element signature="e#3045#3051#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -330,7 +344,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="53" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="14" selection-end-column="39" />
           <folding>
-            <element signature="e#943#949#0" expanded="true" />
+            <element signature="e#943#949#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -370,7 +384,7 @@
         <state relative-caret-position="731">
           <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding>
-            <element signature="e#2345#2351#0" expanded="true" />
+            <element signature="e#2327#2333#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -516,17 +530,17 @@
         <state relative-caret-position="323">
           <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <element signature="e#1326#1332#0" expanded="true" />
-            <element signature="e#1525#1531#0" expanded="true" />
-            <element signature="e#1558#1564#0" expanded="true" />
-            <element signature="e#1634#1640#0" expanded="true" />
-            <element signature="e#1758#1764#0" expanded="true" />
-            <element signature="e#1843#1849#0" expanded="true" />
-            <element signature="e#2222#2228#0" expanded="true" />
-            <element signature="e#2736#2742#0" expanded="true" />
-            <element signature="e#2748#2754#0" expanded="true" />
-            <element signature="e#2783#2789#0" expanded="true" />
-            <element signature="e#3045#3051#0" expanded="true" />
+            <element signature="e#1326#1332#0" expanded="false" />
+            <element signature="e#1525#1531#0" expanded="false" />
+            <element signature="e#1558#1564#0" expanded="false" />
+            <element signature="e#1634#1640#0" expanded="false" />
+            <element signature="e#1758#1764#0" expanded="false" />
+            <element signature="e#1843#1849#0" expanded="false" />
+            <element signature="e#2222#2228#0" expanded="false" />
+            <element signature="e#2736#2742#0" expanded="false" />
+            <element signature="e#2748#2754#0" expanded="false" />
+            <element signature="e#2783#2789#0" expanded="false" />
+            <element signature="e#3045#3051#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -536,17 +550,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="e#943#949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="e#2345#2351#0" expanded="true" />
+            <element signature="e#943#949#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -562,7 +566,7 @@
     <entry file="file://$PROJECT_DIR$/categories/food.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <caret line="29" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
           <folding>
             <element signature="e#980#986#0" expanded="true" />
           </folding>
@@ -572,7 +576,7 @@
     <entry file="file://$PROJECT_DIR$/categories/gifts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="54" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+          <caret line="5" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -580,39 +584,9 @@
     <entry file="file://$PROJECT_DIR$/categories/food/fruits.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="25" column="77" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
+          <caret line="25" column="77" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
           <folding>
             <element signature="e#1306#1312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/food/bread.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#1306#1312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/food/fruits/bananas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="e#1404#1410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/food/fruits/mandarines.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <element signature="e#1399#1405#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,7 +594,7 @@
     <entry file="file://$PROJECT_DIR$/categories/food/bread/darkbread.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+          <caret line="25" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
           <folding>
             <element signature="e#1414#1420#0" expanded="true" />
           </folding>
@@ -640,16 +614,56 @@
     <entry file="file://$PROJECT_DIR$/../../Lesson_3/примеры для урока 3 курс html css/примеры для урока 3 курс html css/13 расположение и трансформация текста/text.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="22" />
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="106" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
+        <state relative-caret-position="542">
+          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/food/bread.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#1306#1312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/food/fruits/bananas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#1404#1410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/food/fruits/mandarines.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#1399#1405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <element signature="e#2327#2333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
