@@ -199,7 +199,14 @@ body {
   color: #000000;
   font-size: 18px;
   font-weight: 400;
-  background: #eaeaea;
+  background: #EAEAEA;
+}
+
+.header_h3 {
+  color: #000000;
+  /* font-family: Helvetica, sans-serif; */
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .characteristic {
@@ -251,4 +258,41 @@ body {
 
 .tr_main:nth-child(1) {
   height: 4em;
+}
+
+.products {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background: #CDCAD4F5;
+  overflow: hidden;
+}
+
+.product_item {
+  width: 30%;
+  height: 310px;
+  float: left;
+  margin-right: 5%;
+  height: 310px;
+  background: #919BA5FA;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5%;
+  /* position: absolute; */
+}
+
+.product_item p {
+  font-size: 10%;
+}
+
+.imgprod {
+  width: 80%;
+  margin: 10% 10%;
+}
+
+.product_item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product_item:nth-child(-n+3) {
+  margin-top: 0;
 }
