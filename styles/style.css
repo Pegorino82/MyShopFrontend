@@ -2,26 +2,52 @@ body {
   background: #F8F8F8;
 }
 
-.authform {
-  border: 1px solid #4682B4;
-  padding: 5px 5px;
+.container {
+  width: 960px;
+  margin: 0 auto;;
 }
 
 /*-------------footer-----------------*/
 
 .footer {
-  height: 5em;
+  height: 100px;
   font-style: italic;
-  text-align: center;
-  border-top: 1px solid #4682B4;
+  text-align: right;
+  border-top: 2px solid #4682B4;
+  border-bottom: 2px solid #4682B4;
+  background: url('../images/icons/background_2.png') repeat-X bottom;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-top: 15px;
 } 
+
+.rights {
+  float: right;
+}
 
 /*-------------header-----------------*/
 
 .header {
+  height: 150px;
   color: #161B1D;
   position: relative;
-  /* height: 50px; */
+  overflow: hidden;
+  background: url('../images/icons/background_2.png') repeat-X top;
+  border-bottom: 2px solid #4682B4;
+  border-top: 2px solid #4682B4;
+  margin: 0 auto 5px;
+}
+
+.logo_title {
+  float: left;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin: 2em 2em 1em;
 }
 
 .shop_title {
@@ -31,74 +57,52 @@ body {
   font-style: italic;
   font-weight: 600;
   font-size: 36px;
-}
-
-.header:before {
-  width: 100%;
-  content: '';
-  border-top: 1px solid #4682B4;
-  top: -5px;
-  position: absolute;
-}
-
-.header:after {
-  width: 100%;
-  content: '';
-  border-bottom: 1px solid #4682B4;
-  bottom: -5px;
-  position: absolute;
-}
-
-.logo {
-  width: 150px;
-  border-radius: 50%;
-}
-
-/* .logo {
-  top:0;
-  display:block;
-  text-align: left;
   float: left;
-  margin-right: 48px;
-  width: 200px;
-  height: 300px;
-  background: url('../images/categories/food/foodbascket.jpg') no-repeat;
-} */
+  margin: 80px 5px 0;
+}
 
-.header h1 {
-  color: #4682B4;
-  font-family: Helvetica, sans-serif;
-  font-style: italic;
-  line-height: 64px;
-  /*background: url('../images/icons/background_1.png') repeat-X top;*/
+.menu_auth {
+  float: right;
 }
 
 .menu {
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
   list-style: none;
-  background: #D3D3D3;
 }
 
 .menu a {
-  color: #778899;
+  color: #4682B4;;
   font-family: "Comic Sans MS", sans-serif;
   text-decoration: none;
+  font-size: 18px;
+  font-style: italic;
+  margin: auto 5px auto;
 }
 
 .menu a:hover {
   color: #663399;
 }
 
+.authform {
+  padding: 5px 5px;
+}
 .login {
+  text-align: right;
   color: #778899;
   font-family: "Comic Sans MS", sans-serif;
 }
 
 .login input[placeholder] {
   font-style: italic;
-  width: 20%;
+  width: 50%;
 }
 
 .login button {
+  margin-right: 5px;
   color: #778899;
   font-family: "Comic Sans MS", sans-serif;
 }
@@ -109,12 +113,24 @@ body {
   text-align: justify;
 }
 
+.img200 {
+  display: block;
+  width: 200px;
+  border: 4px solid #778899;
+}
+
+.links {
+  color: #778899;
+  font-family: "Comic Sans MS", sans-serif;
+  text-decoration: none;
+}
+/* ----------------contacts----------------- */
+
 .feedback input[name='username'],
 .feedback input[name='email'],
 .feedback textarea[name='text'] {
   text-transform: capitalize;
 }
-
 .feedback input:hover,
 .feedback textarea:hover,
 .feedback select:hover {
@@ -125,21 +141,6 @@ body {
 .feedback select:focus {
   background: #81CCDF;
   color: #663399;
-}
-
-.img200 {
-  width: 200px;
-  border: 4px solid #778899;
-}
-
-#prod.img200:hover {
-  border: 4px solid transparent;
-}
-
-.links {
-  color: #778899;
-  font-family: "Comic Sans MS", sans-serif;
-  text-decoration: none;
 }
 
 .feedback {
@@ -158,7 +159,7 @@ body {
 
 .feedback button {
   color: #778899;
-  font-family: "Comic Sans MS", sans-serif; /*почему для кнопки надо отдельно писать шрифт?*/
+  font-family: "Comic Sans MS", sans-serif;
 }
 
 .feedback select {
@@ -178,6 +179,61 @@ body {
   font-family: "Comic Sans MS", sans-serif;
   text-decoration: none;
 }
+/* ---------------product----------- */
+
+.header_h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.prod_card {
+  height: 150px;
+  margin: 5px auto 5px;
+}
+
+.prod_img {
+  float: left;
+  height: 100%;
+  margin-right: 15px;
+}
+
+#prod.img200:hover {
+  display: block;
+  border: 4px solid transparent;
+}
+
+.prod_short_info {
+  width: 700px;
+  float: right;
+}
+
+.header_h4 {
+  margin-top: 0;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  background: #EAEAEA;
+}
+
+.buy_button {
+  display: block;
+  float: right;
+  margin-bottom: 0;
+  width: 80px;
+  height: 50px;
+  border-radius: 5%;
+  background: #d8daeb;
+  text-decoration: none;
+  text-align: center;
+  color: #663399;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.buy_button:hover {
+  background: #A2CE49;
+}
 
 .shorttext {
   color: #707070;
@@ -195,23 +251,13 @@ body {
   color: #663399;
 }
 
-.header_h4 {
-  color: #000000;
-  font-size: 18px;
-  font-weight: 400;
-  background: #EAEAEA;
-}
-
-.header_h3 {
-  color: #000000;
-  /* font-family: Helvetica, sans-serif; */
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .characteristic {
   margin-left: 5px;
   font-family: "Comic Sans MS", sans-serif;
+}
+
+.characteristic ul {
+  margin-left: 5px;
 }
 
 .tb_characteristic {
@@ -250,6 +296,10 @@ body {
   height: 300px;
 }
 
+.tr_main td[rowspan] {
+  transform: rotate(-90deg);
+}
+
 .tb_main td {
   height: 2em;
   width: 2em;
@@ -260,39 +310,54 @@ body {
   height: 4em;
 }
 
-.products {
+/* -------------cards--------------- */
+
+.catalog_container {
   width: 100%;
-  margin: 0 auto 0 auto;
-  background: #CDCAD4F5;
+  margin: 0 auto;
   overflow: hidden;
 }
 
-.product_item {
-  width: 30%;
-  height: 310px;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  width: 22%;
+  height: 250px;
   float: left;
-  margin-right: 5%;
-  height: 310px;
-  background: #919BA5FA;
-  margin-top: 20px;
-  text-align: center;
-  border-radius: 5%;
-  /* position: absolute; */
+  border: 3px solid #90B8D2;
+  margin: 20px 30px 0 0;
 }
 
-.product_item p {
-  font-size: 10%;
-}
-
-.imgprod {
-  width: 80%;
-  margin: 10% 10%;
-}
-
-.product_item:nth-child(3n) {
+.card:nth-child(4n) {
   margin-right: 0;
 }
 
-.product_item:nth-child(-n+3) {
+.card:nth-child(-n+4) {
   margin-top: 0;
+}
+
+.card img {
+  width: 100%;
+  border: none;
+}
+
+.card a {
+  position: bottom;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.card a {
+  font-size: 12px;
 }
